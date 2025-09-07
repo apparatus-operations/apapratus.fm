@@ -1,7 +1,23 @@
 @font-face {
-  font-family: "Fluxisch Else";
-  src: url("https://cdn.jsdelivr.net/gh/apparatus-operations/apapratus.fm@main/FluxischElse-Regular.woff") format("woff");
+  font-family: "FluxischElse";
+  src: url("FluxischElse-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FluxischElse";
+  src: url("FluxischElse-Regular.woff") format("woff");
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FluxischElse";
+  src: url("FluxischElse-Bold.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
